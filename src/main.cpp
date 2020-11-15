@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc != 4) {
-        std::cout << "Usage: Timer <hours> <minutes> <seconds>" << std::endl;
+        std::cout << "Usage: timer <hours> <minutes> <seconds>" << std::endl;
         return 1;
     }
 
