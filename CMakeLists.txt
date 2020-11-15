@@ -15,6 +15,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
 
 find_package(Qt5 REQUIRED COMPONENTS Widgets)
 
-add_executable(Timer src/main.cpp src/MainWindow.cpp src/MainWindow.h src/TimerThread.cpp src/TimerThread.h src/Structs.h src/config.h)
+add_executable(timer src/main.cpp src/MainWindow.cpp src/MainWindow.h src/TimerThread.cpp src/TimerThread.h src/Structs.h src/config.h)
 
-target_link_libraries(Timer Qt5::Widgets)
+target_link_libraries(timer Qt5::Widgets)
